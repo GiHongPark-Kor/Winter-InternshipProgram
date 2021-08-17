@@ -67,7 +67,7 @@
                                         <li> <a href="exercise.html">Exercise</a> </li>
                                         <li><a href="brand.html">Tutorial</a></li>
                                         <li><a href="special.html">View Record</a></li>
-                                        <li><a href="contact.html">Login</a></li>
+                                        <li><a href="login.html">Login</a></li>
                                         <li class="last">
                                             <a href="#"><img src="images/search_icon.png" alt="icon" /></a>
                                         </li>
@@ -84,15 +84,16 @@
 
     <div class="container mt-3" style="margin-top: 150px !important;">
         <div class="mb-3">
-            <input type="email" class="form-control" placeholder="email" id="email-new">
+            <input type="text" class="form-control" placeholder="name" id="name-new">
         </div>
         <div class="mb-3">
-            <input type="password" class="form-control" placeholder="pw" id="pw-new">
+            <input type="email" class="form-control" placeholder="email (ex@naver.com)" id="email-new">
         </div>
-        <button type="submit" class="btn btn-outline-dark" id="login" onclick="location.href='index.html'" style="width: 100px;">로그인</button>
-        <button type="submit" class="btn btn-outline-dark" id="register" onclick="location.href='register.html'" style="width: 100px;">회원가입</button>
+        <div class="mb-3">
+            <input type="password" class="form-control" placeholder="pw (least 6 characters)" id="pw-new">
+        </div>
+        <button type="submit" class="btn btn-outline-dark" id="register" onclick="location.href='login.html'" style="width: 100px;">가입하기</button>
     </div>
-
 
     <!-- footer -->
     <footer style="margin-top: 350px;">

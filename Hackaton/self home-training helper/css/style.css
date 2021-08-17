@@ -1930,7 +1930,7 @@ margin-top: 40px
 } 
 
 .form-control {
-     border: #ae1948 solid 2px;
+     border: #ae1948 solid 1px;
      border-radius: inherit;
      margin-bottom: 30px;
      padding: 13px 20px;
@@ -1938,8 +1938,9 @@ margin-top: 40px
 }
 .form-control:focus {
      box-shadow: inherit;
-     border: #ae1948 solid 2px !important;
+     border: #ae1948 solid 1px !important;
 }
+
 
 .textarea {
      font-family: poppins;
